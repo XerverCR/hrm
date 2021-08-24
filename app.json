@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Oficina online",
+    "slug": "hrofficepro",
+    "privacy": "public",
+    "sdkVersion": "42.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon_nonAlpha.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.teamcr.hrm",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBRAPDJ_UsEhDcdNSvDNtdLdZQmMSTIboc"
+      }
+    },
+    "android": {
+      "package": "com.teamcr.hrm",
+      "config": {
+        "googleMaps": { "apiKey": "AIzaSyBRAPDJ_UsEhDcdNSvDNtdLdZQmMSTIboc" }   
+     },
+      "versionCode":1
+    },
+    "description": ""
+  }
+}
